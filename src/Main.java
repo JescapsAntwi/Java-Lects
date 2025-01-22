@@ -23,7 +23,7 @@ public class Main {
             //creating an array to store daily hours for current employee
             int[] dailyHours = new int[daysOfWeek];
 
-            String[] days = {"Mon", "Tue", "Wed", "Thurs", "Fri" };
+            String[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday" };
             for (int j = 0; j < dailyHours.length; j++) {
                 System.out.println("Enter hours worked on " + days[j] + ": ");
                 dailyHours[j] = Integer.parseInt((input.nextLine()));
